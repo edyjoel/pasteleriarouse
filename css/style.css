@@ -12,6 +12,32 @@
   margin: 40px 0;
 }
 
+.titulo_productos {
+  text-align: center;
+  padding: 15px;
+  font-size: 36px;
+  line-height: 41px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #FC6170;
+  margin: 60px 0; 
+}
+
+@media screen and ( max-width: 768px ) {
+  .titulo_productos {
+    font-size: 32px;
+    line-height: 37px;
+  }
+}
+
+@media screen and ( max-width: 479px ) {
+  .titulo_productos {
+    font-size: 28px;
+    line-height: 33px;
+    margin: 30px 0;
+  }
+}
+
 /* the slides */
 .slick-slide {
   margin: 0 10px;
@@ -208,7 +234,7 @@
 /* TESTIMONIOS */
 
 .testimonios {
-  margin: 40px 0;
+  margin: 30px 0;
 }
 
 .titulo_testimonio {
@@ -273,6 +299,12 @@
 }
 
 @media screen and ( max-width: 550px ) {
+
+  .titulo_testimonio {
+    font-size: 28px;
+    line-height: 33px;
+  }
+
   .imagen_testimonio {
     display: none;
   }
@@ -286,7 +318,7 @@
   }
 
   .testimonios {
-    margin: 6                                                                       0px 0;
+    margin: 15px                                                                       0px 0;
   }
 }
 
@@ -429,6 +461,7 @@ footer {
   .texto_titulo_contacto {
     font-size: 30px;
     line-height: 35px;
+    margin-top: 60px;
   }
 
   .contenedor_formulario {
@@ -486,10 +519,194 @@ footer {
   .texto_titulo_contacto {
     font-size: 25px;
     line-height: 30px;
+    text-align: center;
   }
 
   input[type="submit"] {
     width: 100%;
   }
 
+}
+
+  /* Cocinamos con amor */
+
+  .titulo_cocinamos_amor {
+    text-align: center;
+    padding: 15px;
+    font-size: 36px;
+    line-height: 41px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #FC6170;
+    margin: 60px 0;
+  }
+
+  .c_image_item {
+    text-align: center;
+  }
+
+  .c_image_item img {
+    max-width: 150px;
+  }
+
+  .titulo_item {
+    text-align: center;
+    padding: 5px;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'Open Sans', sans-serif;
+    color: #707070;
+  }
+
+  .c_items_cocinamos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 0;
+  }
+
+  .item_cocinamos {
+    padding: 10px;
+  }
+
+@media screen and ( max-width: 768px ) {
+  .titulo_cocinamos_amor {
+    font-size: 32px;
+    line-break: 37px;
+  }
+
+  .c_image_item img {
+    max-width: 100px;
+  }
+
+  .titulo_item {
+    font-size: 22px;
+    line-height: 27px;
+  }
+}
+
+@media screen and ( max-width: 650px ) {
+  .item_cocinamos {
+    width: 50%;
+  }
+}
+
+@media screen and ( max-width: 479px ) {
+
+  .c_items_cocinamos {
+    margin: 30px 0;
+  }
+
+  .titulo_item {
+    font-size: 16px;
+  }
+
+  .c_image_item img {
+    max-width: 85px;
+  }
+
+  .titulo_cocinamos_amor {
+    font-size: 28px;
+    line-height: 33px;
+    margin: 15px 0;
+  }
+}
+
+/* SOBRE NOSOTROS */
+
+.c_nosotros {
+  display: flex;
+  margin: 60px 0;
+  flex-wrap: wrap;
+}
+
+.titulo_nosotros {
+  text-align: left;
+  font-size: 36px;
+  line-height: 41px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #FC6170;
+  margin: 0 0 30px 0;
+
+}
+
+.parrafo_nosotros {
+  text-align: left;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  color: #707070;
+}
+
+.texto_propietario {
+  text-align: left;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: 'Open Sans', sans-serif;
+  color: #707070;
+  font-weight: normal;
+}
+
+.c_imagen_nosotros img {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px grey;
+}
+
+.c_textos_nosotros {
+  width: 35%;
+  padding-right: 20px;
+}
+
+.c_imagen_nosotros {
+  width: 65%;
+}
+
+.c_firma {
+  display: flex;
+}
+
+@media screen and ( max-width: 768px ) {
+  .c_textos_nosotros {
+    width: 100%;
+  }
+
+  .c_imagen_nosotros {
+    width: 100%;
+  }
+
+  .titulo_nosotros {
+    text-align: center;
+  }
+
+  .parrafo_nosotros {
+    text-align: justify;  
+  }
+
+  .titulo_nosotros {
+    font-size: 32px;
+    line-height: 37px;
+  }
+}
+
+@media screen and ( max-width: 479px ) {
+  .titulo_nosotros {
+    font-size: 28px;
+    line-height: 33px;
+  }
+}
+
+@media screen and ( max-width: 380px ) {
+  .c_firma {
+    display: block;
+  }
+
+  .texto_propietario {
+    text-align: center;
+  }
+
+  .imagen_firma {
+    text-align: center;
+  }
 }
