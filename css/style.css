@@ -1,5 +1,28 @@
+/* MENU Z-INDEX 10 */
+/* HEADER Z-INDEX 100 */
+
 * {
   box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin-top: 150px;
+}
+
+@media screen and ( max-width: 768px ) {
+  body {
+    margin-top: 125px;
+  } 
+}
+
+@media screen and ( max-width: 479px ) {
+  body {
+    margin-top: 105px;
+  } 
 }
 
 .contenedor {
@@ -8,8 +31,11 @@
   padding: 15px;
 }
 
+.padding_top {
+  padding-top: 150px !important;
+}
+
 .productos {
-  margin: 40px 0;
 }
 
 .titulo_productos {
@@ -234,7 +260,7 @@
 /* TESTIMONIOS */
 
 .testimonios {
-  margin: 30px 0;
+  padding: 100px 0;
 }
 
 .titulo_testimonio {
@@ -325,7 +351,7 @@
 /*  Contacto Foter */
 
 .ordenar {
-  margin: 40px 0;
+  padding: 150px 0;
 }
 
 .texto_titulo_contacto {
@@ -531,7 +557,12 @@ footer {
 
   /* Cocinamos con amor */
 
+.cocinamos_amor {
+  padding-top: 90px;
+}
+
   .titulo_cocinamos_amor {
+    margin-top: 0; 
     text-align: center;
     padding: 15px;
     font-size: 36px;
@@ -539,7 +570,7 @@ footer {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     color: #FC6170;
-    margin: 60px 0;
+    margin-bottom: 60px;
   }
 
   .c_image_item {
@@ -614,10 +645,11 @@ footer {
 }
 
 /* SOBRE NOSOTROS */
-
+.sobre_nosotros {
+  padding-top: 150px;
+}
 .c_nosotros {
   display: flex;
-  margin: 60px 0;
   flex-wrap: wrap;
 }
 
@@ -714,5 +746,141 @@ footer {
 
   .imagen_firma {
     text-align: center;
+  }
+}
+
+/* HEADER */
+
+nav {
+  position: relative;
+}
+
+.contenedor_menu {
+  padding:  0 10px;
+}
+
+.logo {
+  margin: 0;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+.item_tel {
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.nav_telefono {
+  display: flex;
+  align-items: center;
+}
+
+.numero_telefono strong {
+  font-size: 18px;
+  line-height: 23px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FC6170;
+  font-weight: bold;
+}
+
+.numero_telefono {
+  padding: 0 10px;
+}
+
+.items_nav {
+  display: flex;
+  align-items: center;
+}
+
+.item_nav {
+  font-size: 12px;
+  line-height: 23px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FC6170;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.c_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu_burger {
+  display: none;
+}
+
+.icono_menu img {
+  max-width: 50px;
+}
+
+.c_menu_burger {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.icono_menu {
+  border: none;
+  background: none;
+}
+
+.item_nav_movil {
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
+.item_tel_movil {
+  display: block;
+  text-align: center;
+  padding: 20px;
+
+}
+
+.nav_telefono_movil {
+  justify-content: center;
+}
+
+.items_nav_movil {
+  position: absolute;
+  background: white;
+  z-index: 10;
+  width: 100%;
+  display: none;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: white;
+  z-index: 1000;
+}
+
+
+@media screen and ( max-width: 768px ) {
+  .items_nav {
+    display: none;
+  }
+
+  .menu_burger {
+    display: block;
+  }
+
+  .logo img {
+    max-width: 120px;
+  }
+}
+
+@media screen and ( max-width: 479px ) {
+  .logo img {
+    max-width: 100px;
+  }
+
+  .icono_menu img {
+    max-width: 40px;
   }
 }
