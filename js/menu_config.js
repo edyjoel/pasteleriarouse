@@ -7,9 +7,9 @@ $(document).ready(function(){
   $('.item_nav').on('click', function(e) {
   
     var element = e.currentTarget.hash;
-    $(element).addClass('padding_top');
+      $('*').removeClass('padding_top');  
+      $(element).addClass('padding_top');
   })
-
 
 })
 

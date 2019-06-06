@@ -32,10 +32,7 @@ body {
 }
 
 .padding_top {
-  padding-top: 150px !important;
-}
-
-.productos {
+  padding-top: 90px !important;
 }
 
 .titulo_productos {
@@ -46,7 +43,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   color: #FC6170;
-  margin: 60px 0; 
+  margin: 30px 0; 
+  margin-top: 0;
 }
 
 @media screen and ( max-width: 768px ) {
@@ -259,10 +257,6 @@ body {
 
 /* TESTIMONIOS */
 
-.testimonios {
-  padding: 100px 0;
-}
-
 .titulo_testimonio {
   text-align: center;
   padding: 15px;
@@ -349,10 +343,6 @@ body {
 }
 
 /*  Contacto Foter */
-
-.ordenar {
-  padding: 150px 0;
-}
 
 .texto_titulo_contacto {
   font-family: 'Open Sans', sans-serif;
@@ -558,7 +548,7 @@ footer {
   /* Cocinamos con amor */
 
 .cocinamos_amor {
-  padding-top: 90px;
+  padding-top: 60px;
 }
 
   .titulo_cocinamos_amor {
@@ -645,9 +635,7 @@ footer {
 }
 
 /* SOBRE NOSOTROS */
-.sobre_nosotros {
-  padding-top: 150px;
-}
+
 .c_nosotros {
   display: flex;
   flex-wrap: wrap;
@@ -701,6 +689,18 @@ footer {
 }
 
 @media screen and ( max-width: 768px ) {
+
+  .c_firma {
+    display: block;
+  }
+
+  .texto_propietario {
+    text-align: center;
+  }
+
+  .imagen_firma {
+    text-align: center;
+  }
 
   .c_nosotros {
     margin: 30px 0;
@@ -764,7 +764,7 @@ nav {
 }
 
 .logo img {
-  max-width: 150px;
+  max-width: 100px;
 }
 
 .item_tel {
@@ -882,5 +882,106 @@ header {
 
   .icono_menu img {
     max-width: 40px;
+  }
+}
+
+/* HERO */
+
+.hero {
+  background-image: url('../images/bg_banner_principal.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.c_hero {
+  padding: 60px 0;
+  padding-right: 80px;
+}
+
+.titulo_rose {
+  font-size: 48px;
+  line-height: 53px;
+  font-family: 'Dancing Script', cursive;
+  color: #FC6170;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.subtitulo_rose {
+  font-size: 24px;
+  line-height: 29px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  color: #707070;
+  margin-bottom: 40px;
+}
+
+.cta_hero {
+  font-family: 'Open Sans', sans-serif;
+  background: #FC6170;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 38px;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.texto_siguenos {
+  color: #707070;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+.siguenos {
+  margin-bottom: 10px;
+}
+
+.numero_llamanos {
+  color: #707070;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+.btn_red_hero {
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+@media screen and ( max-width: 768px ) {
+  .titulo_rose {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .subtitulo_rose {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and ( max-width: 479px ) {
+  .c_hero {
+    padding: 30px 0;
+    padding-right: 80px;
+  }
+
+  .titulo_rose {
+    font-size: 32px;
+    line-height: 37px;
+  }
+
+  .subtitulo_rose {
+    font-size: 18px;
+    line-height: 23px;
   }
 }
