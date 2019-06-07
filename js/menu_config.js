@@ -11,7 +11,7 @@ $(document).ready(function(){
       $(element).addClass('padding_top');
   })
 
-  $('.item_nav_movil').on('click', function(){
+  $('.item_nav_movil, .logo a').on('click', function(){
     $('.items_nav_movil').fadeOut('slow');
   })
 

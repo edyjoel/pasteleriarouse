@@ -4,5 +4,6 @@ $(".c_flip").flipster({
   spacing: -0.7,
   nav: false,
   buttons: true,
-  dots: false
+  dots: false,
+  loop: true
 });
