@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="js/slick-1.8.1/slick/slick.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="js/jquery-flipster-master/dist/jquery.flipster.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
 </head>
 <body>
 
@@ -30,6 +31,7 @@
             <a id="nav_cocinamos" class="item_nav" href="#cocinamos_amor">COCINAMOS</a>
             <a id="nav_nosotros" class="item_nav" href="#sobre_nosotros">NOSOTROS</a>
             <a id="nav_testimonios" class="item_nav" href="#testimonios">TESTIMONIOS</a>
+            <a id="nav_galeria" class="item_nav" href="#galeria">GALERIA</a>
             <a id="nav_contacto" class="item_nav" href="#ordenar">CONTACTO</a>
             <a class="item_tel" href="">
               <div class="nav_telefono">
@@ -66,6 +68,7 @@
         <a class="item_nav item_nav_movil" href="#cocinamos_amor">COCINAMOS</a>
         <a class="item_nav item_nav_movil" href="#sobre_nosotros">NOSOTROS</a>
         <a class="item_nav item_nav_movil" href="#testimonios">TESTIMONIOS</a>
+        <a class="item_nav item_nav_movil" href="#galeria">GALERIA</a>
         <a class="item_nav item_nav_movil" href="#ordenar">CONTACTO</a>
         <a class="item_tel item_tel_movil" href="">
           <div class="nav_telefono nav_telefono_movil">
@@ -113,45 +116,38 @@
         <div class="slider_productos">
           <div class="contenedor_productos">
             <div class="item_producto">
-              <div class="imagen_producto"></div>
+              <div class="imagen_producto" style="background-image: url('./images/cup_cake.jpg')"></div>
               <div class="textos_producto">
-                <h3 class="titulo_producto">Pastel de Chocolate</h3>
+                <h3 class="titulo_producto">Cup Cakes</h3>
+                <strong class="precio_producto">Desde 4 x Q.50.00</strong>
+                <a class="cta_producto" href="#ordenar">Ordenar ahora</a>
+              </div>
+            </div>
+            <div class="item_producto">
+              <div class="imagen_producto" style="background-image: url('./images/pastel_normal.jpg')"></div>
+              <div class="textos_producto">
+                <h3 class="titulo_producto">Pastel Personalizado</h3>
                 <strong class="precio_producto">Desde Q.100.00</strong>
                 <a class="cta_producto" href="#ordenar">Ordenar ahora</a>
               </div>
             </div>
             <div class="item_producto">
-              <div class="imagen_producto"></div>
+              <div class="imagen_producto" style="background-image: url('./images/pastel_de_3_leches.jpg')"></div>
               <div class="textos_producto">
-                <h3 class="titulo_producto">Pastel de Chocolate</h3>
+                <h3 class="titulo_producto">Pastel de 3 Leches</h3>
                 <strong class="precio_producto">Desde Q.100.00</strong>
                 <a class="cta_producto" href="#ordenar">Ordenar ahora</a>
               </div>
             </div>
             <div class="item_producto">
-              <div class="imagen_producto"></div>
+              <div class="imagen_producto" style="background-image: url('./images/empanada.jpg')"></div>
               <div class="textos_producto">
-                <h3 class="titulo_producto">Pastel de Chocolate</h3>
-                <strong class="precio_producto">Desde Q.100.00</strong>
+                <h3 class="titulo_producto">Empanadas Rellenas</h3>
+                <strong class="precio_producto">Desde Q.10.00</strong>
                 <a class="cta_producto" href="#ordenar">Ordenar ahora</a>
               </div>
             </div>
-            <div class="item_producto">
-              <div class="imagen_producto"></div>
-              <div class="textos_producto">
-                <h3 class="titulo_producto">Pastel de Chocolate</h3>
-                <strong class="precio_producto">Desde Q.100.00</strong>
-                <a class="cta_producto" href="#ordenar">Ordenar ahora</a>
-              </div>
-            </div>
-            <div class="item_producto">
-              <div class="imagen_producto"></div>
-              <div class="textos_producto">
-                <h3 class="titulo_producto">Pastel de Chocolate</h3>
-                <strong class="precio_producto">Desde Q.100.00</strong>
-                <a class="cta_producto" href="#ordenar">Ordenar ahora</a>
-              </div>
-            </div>
+            
           </div>
           <div class="botones">
             <a id="prev" href=""><img src="images/izquierda.png"></a>
@@ -214,10 +210,10 @@
           <div class="c_parrafos_nosotros">
             <h2 class="titulo_nosotros">SOBRE NOSOTROS</h2>
             <p class="parrafo_nosotros">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae eum ipsa rerum molestiae natus soluta quas a error quia magnam ea, temporibus iure mollitia consectetur ex? Incidunt error officia cumque?
+              Somos una empresa dedicada a la elaboración de productos de calidad, explotamos nuestro talento humano, para servir a nuestros clientes con calidad y amabilidad.
             </p>
             <p class="parrafo_nosotros">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum nobis ipsa rem illo minus hic neque aspernatur tenetur eveniet aliquid, voluptatem reiciendis, expedita quis? Beatae necessitatibus quis tempora quidem libero?
+              Nosotros como micro empresa de pedidos a domicilio, comenzamos por demostrar las enseñanzas que tenemos de nuestra abuela y también de nuestra madre ya que ellas son personas alegres. Es por eso queremos darles un poco de la felicidad que llevamos al hacer nuestros postres.
             </p>
             <div class="c_firma">
               <div class="propietario">
@@ -247,16 +243,16 @@
             <li>
               <div class="item_testimonio">
                 <div class="imagen_testimonio">
-                  <img src="images/girl.png">
+                  <img src="images/diego_sarazua.png">
                 </div>
                 <div class="textos_testimonio">
                   <h3 class="nombre_testimonio">
-                    Maria Espinoza
+                    Diego Sarazua
                   </h3>
                   <p class="parrafo_testimonio">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim voluptatem velit doloribus mollitia. Ipsa, veritatis corporis sapiente non rerum, aut reprehenderit magnam maxime porro in at earum tenetur dolores debitis?
+                    Él ama los pastelitos que su novia hace y mas cuando los hacen juntos.
                   </p>
-                  <div class="fecha_testimonio">10 mayo 2019</div>
+                  <div class="fecha_testimonio">18 Febrero 2019</div>
                 </div>
               </div>
             </li>
@@ -267,49 +263,84 @@
                 </div>
                 <div class="textos_testimonio">
                   <h3 class="nombre_testimonio">
-                    Maria Espinoza
+                    Mari Ruano
                   </h3>
                   <p class="parrafo_testimonio">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim voluptatem velit doloribus mollitia. Ipsa, veritatis corporis sapiente non rerum, aut reprehenderit magnam maxime porro in at earum tenetur dolores debitis?
+                    Me encantan los pastelitos de oreo mas con las figuras de fondant
                   </p>
-                  <div class="fecha_testimonio">10 mayo 2019</div>
+                  <div class="fecha_testimonio">5 enero 2019</div>
                 </div>
               </div>
             </li>
             <li>
               <div class="item_testimonio">
                 <div class="imagen_testimonio">
-                  <img src="images/girl.png">
+                  <img src="images/mari_ruano.png">
                 </div>
                 <div class="textos_testimonio">
                   <h3 class="nombre_testimonio">
-                    Maria Espinoza
+                    Maria Ordon
                   </h3>
                   <p class="parrafo_testimonio">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim voluptatem velit doloribus mollitia. Ipsa, veritatis corporis sapiente non rerum, aut reprehenderit magnam maxime porro in at earum tenetur dolores debitis?
+                    Me encanta los pastelitos que hace mi sobrina.
                   </p>
-                  <div class="fecha_testimonio">10 mayo 2019</div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="item_testimonio">
-                <div class="imagen_testimonio">
-                  <img src="images/girl.png">
-                </div>
-                <div class="textos_testimonio">
-                  <h3 class="nombre_testimonio">
-                    Maria Espinoza
-                  </h3>
-                  <p class="parrafo_testimonio">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim voluptatem velit doloribus mollitia. Ipsa, veritatis corporis sapiente non rerum, aut reprehenderit magnam maxime porro in at earum tenetur dolores debitis?
-                  </p>
-                  <div class="fecha_testimonio">10 mayo 2019</div>
+                  <div class="fecha_testimonio">24 diciembre 2018</div>
                 </div>
                 </div>
             </li>
           </ul>
         </div>
+    </div>
+  </div>
+
+  <!-- GALERIA -->
+
+  <div class="galeria" id="galeria">
+    <div class="contenedor">
+      <div class="c_galeria">
+        <h2 class="texto_titulo_contacto" style="text-align: center">GALERIA</h2>
+
+        <a class="fancybox" id="single_image" href="./images/galeria/1.jpg">
+          <img src="./images/galeria/1.jpg" alt=""/>
+        </a>
+
+        <a class="fancybox" id="single_image" href="./images/galeria/2.jpg">
+          <img src="./images/galeria/2.jpg" alt=""/>
+        </a>
+
+        <a class="fancybox" id="single_image" href="./images/galeria/3.jpg">
+          <img src="./images/galeria/3.jpg" alt=""/>
+        </a>
+
+        <a class="fancybox" id="single_image" href="./images/galeria/4.jpg">
+          <img src="./images/galeria/4.jpg" alt=""/>
+        </a>
+
+        <a class="fancybox" id="single_image" href="./images/galeria/5.jpg">
+          <img src="./images/galeria/5.jpg" alt=""/>
+        </a>
+
+        <a class="fancybox" id="single_image" href="./images/galeria/6.jpg">
+          <img src="./images/galeria/6.jpg" alt=""/>
+        </a>
+
+        <a class="fancybox" id="single_image" href="./images/galeria/7.jpg">
+          <img src="./images/galeria/7.jpg" alt=""/>
+        </a>
+
+        <a class="fancybox" id="single_image" href="./images/galeria/8.jpg">
+          <img src="./images/galeria/8.jpg" alt=""/>
+        </a>
+
+        <a class="fancybox" id="single_image" href="./images/galeria/9.jpg">
+          <img src="./images/galeria/9.jpg" alt=""/>
+        </a>
+
+        <a class="fancybox" id="single_image" href="./images/galeria/10.jpg">
+          <img src="./images/galeria/10.jpg" alt=""/>
+        </a>
+
+      </div>
     </div>
   </div>
 
@@ -323,17 +354,18 @@
         </div>
         <div class="contenedor_formulario">
           <div class="formulario">
-            <form action="">
-              <input type="text" placeholder="Nombre">
-              <input type="text" placeholder="Apellido">
-              <input type="tel" placeholder="Teléfono">
-              <select>
-                <option selected disabled value="default">Ocación</option>
+            <form id="myform" action="" method="POST">
+              <input type="text" placeholder="Nombre" required>
+              <input type="text" placeholder="Apellido" required> 
+              <input type="text" placeholder="Teléfono" required>
+              <select required>
+                <option selected disabled>Ocación</option>
                 <option value="cumpleaños">Cumpleaños</option>
                 <option value="XV Años">XV Años</option>
                 <option value="Boda">Boda</option>
+                <option value="Boda">Otro</option>
               </select>
-              <textarea rows="4" placeholder="Cuéntanos más..."></textarea>
+              <textarea required rows="4" placeholder="Cuéntanos más..."></textarea>
               <input type="submit" value="Ordenar">
             </form>
           </div>
@@ -376,5 +408,19 @@
   <script src="js/jquery-flipster-master/dist/jquery.flipster.min.js"></script>
   <script src="js/flip_config.js"></script>
   <script src="js/menu_config.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <script>
+    $(document).ready(function() {
+		$(".fancybox").fancybox({
+      'showNavArrows' :   true,
+      protect: true,
+      protect    : true,
+  slideClass : 'watermark',
+  toolbar    : true,
+  smallBtn   : true
+ 
+    });
+	});
+  </script>
 </body>
 </html>

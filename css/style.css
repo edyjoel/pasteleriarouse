@@ -108,6 +108,7 @@ body {
   background-image: url('../images/producto_1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 100%;
 }
 
 .textos_producto {
@@ -288,6 +289,9 @@ body {
 
 .textos_testimonio {
   padding: 10px;
+  align-self: normal;
+  display: flex;
+  flex-direction: column;
 }
 
 .nombre_testimonio {
@@ -311,11 +315,14 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #707070;
   font-style: italic;
+  margin-top: auto;
 }
 
 .imagen_testimonio img {
   max-width: 170px !important;
   display: block; 
+  padding: 10px;
+  padding-bottom: 0;
 }
 
 @media screen and ( max-width: 550px ) {
@@ -548,7 +555,7 @@ footer {
   /* Cocinamos con amor */
 
 .cocinamos_amor {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
   .titulo_cocinamos_amor {
@@ -806,6 +813,10 @@ nav {
   border-bottom: 5px solid transparent;
 }
 
+.item_nav:hover {
+  border-bottom: 5px solid #FC6170;
+}
+
 .c_menu {
   display: flex;
   justify-content: space-between;
@@ -988,4 +999,25 @@ header {
     font-size: 18px;
     line-height: 23px;
   }
+}
+
+/* GALERIA */
+
+.galeria {
+  padding: 30px 0;
+}
+
+.fancybox {
+ 
+}
+
+.c_galeria {
+  text-align: center;
+}
+
+.fancybox img {
+  width: 25%;
+  height: auto;
+  border-radius: 10px;
+  
 }
