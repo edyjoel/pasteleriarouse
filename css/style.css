@@ -814,7 +814,7 @@ nav {
 }
 
 .item_nav:hover {
-  border-bottom: 5px solid #FC6170;
+  border-bottom: 5px solid #FC6170 !important;
 }
 
 .c_menu {
