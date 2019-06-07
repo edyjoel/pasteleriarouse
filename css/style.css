@@ -765,6 +765,7 @@ nav {
 
 .logo img {
   max-width: 100px;
+  transition: 1s;
 }
 
 .item_tel {
@@ -795,12 +796,14 @@ nav {
 }
 
 .item_nav {
+  transition: 1s;
   font-size: 12px;
   line-height: 23px;
   font-family: 'Open Sans', sans-serif;
   color: #FC6170;
   text-decoration: none;
   padding: 10px;
+  border-bottom: 5px solid transparent;
 }
 
 .c_menu {
@@ -814,7 +817,7 @@ nav {
 }
 
 .icono_menu img {
-  max-width: 50px;
+  max-width: 30px;
 }
 
 .c_menu_burger {
@@ -871,7 +874,7 @@ header {
   }
 
   .logo img {
-    max-width: 120px;
+    max-width: 100px;
   }
 }
 
@@ -881,7 +884,7 @@ header {
   }
 
   .icono_menu img {
-    max-width: 40px;
+    max-width: 25px;
   }
 }
 
@@ -897,6 +900,7 @@ header {
 .c_hero {
   padding: 60px 0;
   padding-right: 80px;
+  padding-top: 10px;
 }
 
 .titulo_rose {
