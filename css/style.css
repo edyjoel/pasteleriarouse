@@ -864,14 +864,11 @@ nav {
   z-index: 10;
   width: 100%;
   display: none;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center
+
 }
 
 .item_nav_movil {
-  border-bottom: 1px solid #FC6170;
+  
   transition: 1s;
   font-size: 16px;
   line-height: 23px;
