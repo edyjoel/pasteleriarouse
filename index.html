@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="js/jquery-flipster-master/dist/jquery.flipster.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="js/lightgallery.js-master/dist/css/lightgallery.min.css">
 </head>
 <body>
 
@@ -297,46 +298,47 @@
 
   <div class="galeria" id="galeria">
     <div class="contenedor">
-      <div class="c_galeria">
-        <h2 class="texto_titulo_contacto" style="text-align: center">GALERIA</h2>
+      <h2 class="texto_titulo_contacto" style="text-align: center">GALERIA</h2>
 
-        <a class="fancybox" id="single_image" href="./images/galeria/1.jpg">
+      <div class="c_galeria" id="lightgallery">
+      
+        <a id="single_image" href="./images/galeria/1.jpg">
           <img src="./images/galeria/1.jpg" alt=""/>
         </a>
 
-        <a class="fancybox" id="single_image" href="./images/galeria/2.jpg">
+        <a id="single_image" href="./images/galeria/2.jpg">
           <img src="./images/galeria/2.jpg" alt=""/>
         </a>
 
-        <a class="fancybox" id="single_image" href="./images/galeria/3.jpg">
+        <a id="single_image" href="./images/galeria/3.jpg">
           <img src="./images/galeria/3.jpg" alt=""/>
         </a>
 
-        <a class="fancybox" id="single_image" href="./images/galeria/4.jpg">
+        <a id="single_image" href="./images/galeria/4.jpg">
           <img src="./images/galeria/4.jpg" alt=""/>
         </a>
 
-        <a class="fancybox" id="single_image" href="./images/galeria/5.jpg">
+        <a id="single_image" href="./images/galeria/5.jpg">
           <img src="./images/galeria/5.jpg" alt=""/>
         </a>
 
-        <a class="fancybox" id="single_image" href="./images/galeria/6.jpg">
+        <a id="single_image" href="./images/galeria/6.jpg">
           <img src="./images/galeria/6.jpg" alt=""/>
         </a>
 
-        <a class="fancybox" id="single_image" href="./images/galeria/7.jpg">
+        <a id="single_image" href="./images/galeria/7.jpg">
           <img src="./images/galeria/7.jpg" alt=""/>
         </a>
 
-        <a class="fancybox" id="single_image" href="./images/galeria/8.jpg">
+        <a id="single_image" href="./images/galeria/8.jpg">
           <img src="./images/galeria/8.jpg" alt=""/>
         </a>
 
-        <a class="fancybox" id="single_image" href="./images/galeria/9.jpg">
+        <a id="single_image" href="./images/galeria/9.jpg">
           <img src="./images/galeria/9.jpg" alt=""/>
         </a>
 
-        <a class="fancybox" id="single_image" href="./images/galeria/10.jpg">
+        <a id="single_image" href="./images/galeria/10.jpg">
           <img src="./images/galeria/10.jpg" alt=""/>
         </a>
 
@@ -409,18 +411,9 @@
   <script src="js/flip_config.js"></script>
   <script src="js/menu_config.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-  <script>
-    $(document).ready(function() {
-		$(".fancybox").fancybox({
-      'showNavArrows' :   true,
-      protect: true,
-      protect    : true,
-  slideClass : 'watermark',
-  toolbar    : true,
-  smallBtn   : true
- 
-    });
-	});
-  </script>
+  <script src="js/lightgallery.js-master/dist/js/lightgallery.js"></script>
+  <script src="js/lightgallery.js-master/demo/js/lg-thumbnail.min.js"></script>
+  <script src="js/lightgallery.js-master/demo/js/lg-zoom.min.js"></script>
+  <script src="js/gallery.js"></script>
 </body>
 </html>
