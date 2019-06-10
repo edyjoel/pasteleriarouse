@@ -15,7 +15,7 @@ Trabajo realizado con un diseño simple y claro, para que el usuario conozca sob
  
 ## Información adicional
 
-- Adpatable a distintos dispositivos.
+- Adaptable a distintos dispositivos.
 - Efecto de sección activa para la versión en Desktop.
 - Efecto Hover sobre las imagenes de la galeria.
 - Para la versión en producción cuando se llena el formulario de contacto se guardan los datos del usuario en Base de Datos.
