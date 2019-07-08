@@ -21,4 +21,3 @@ Trabajo realizado con un diseño simple y claro, para que el usuario conozca sob
 - Para la versión en producción cuando se llena el formulario de contacto se guardan los datos del usuario en Base de Datos.
  
 [Overview del proyecto](https://edyjoel.github.io/pasteleriarouse/)
-[Overview en producción](http://pasteleriarose.com/)
